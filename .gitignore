@@ -1,0 +1,31 @@
+# Python and local tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.tools/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated PyInstaller output
+build/
+dist/
+*.spec
+*.log
+
+# Local configuration and private working history
+.env
+.env.*
+!.env.example
+PROJECT_MEMORY.md
+USER_PROMPTS.md
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Personal app data (test audio in tests_data remains tracked)
+notes.json
+audio/
+*.part
